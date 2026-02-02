@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Strikeapp">
       <div className="app">
         <Header />
         <main className="main">
